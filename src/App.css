@@ -237,6 +237,9 @@
     justify-items: center;
 
     background: linear-gradient(180deg, #DCE9E9 11.21%, rgba(220, 233, 233, 0.15) 42.17%), url("https://images.pexels.com/photos/4041391/pexels-photo-4041391.jpeg?auto=compress&cs=tinysrgb&h=562&w=100%");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
 }
 #b1{
     width: 315px;
@@ -336,7 +339,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 #img3,#img4,#img5,#img6{
     padding-top: 25px;
@@ -670,13 +673,14 @@
         width: 35%;
         height: 300px;
     }
-    #subcontainer_5{
-        justify-content: space-evenly;
-    }
     #social_media{
         column-gap: 50px;
     }
     .cart_bell{
         column-gap: 60px;
+    }
+    #subcontainer_4{
+        background-repeat: repeat;
+        background-size: 500px;
     }
 }
